@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    width: 1440px;
+    margin-left: 200px;
+}
+.header {
+    display: flex;
+    width: 580px;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f27c0f;
+}
+.logo::first-letter {
+    color: #003399;
+    font-size: 70px;
+}
+.menu ul {
+    padding-top: 40px;
+}
+.menu li{
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.menu a {
+    text-decoration: none;
+}
+.main {
+    width: 580px;
+}
+.number {
+    font-size: 200px;
+    color: #f27c0f;
+    text-align: center;
+}
+.button {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+.button a {
+    text-decoration: none;
+    list-style-type: none;
+}
+.button_1 {
+    width: 150px;
+    height: 30px;
+    background-color: #003399;
+    border-radius: 3px;
+    text-align: center;
+}
+.button_1 a {
+    line-height: 30px;
+    color: #fff;
+}
+.button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.button_2 {
+    width: 150px;
+    height: 30px;
+    background-color: #f27c0f;
+    border-radius: 3px;
+    text-align: center;
+}
+.button_2 a {
+    line-height: 30px;
+    color: #fff;
+}
+.button_3 {
+    width: 150px;
+    height: 30px;
+    background-color: #E5E5E5;
+    border-radius: 3px;
+    text-align: center;
+}
+.button_3 a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.button_3 a {
+    line-height: 30px;
+    color: #000;
+}
+.footer {
+    margin-top: 150px;
+}
+.footerLogo::first-letter {
+    color: 	#808080;
+}
+.footerLogo {
+    font-size: 15px;
+    color: 	#c0c0c0;
+}
+.copyright {
+    color: #c0c0c0;
+    padding-top: 22px;
+    font-size: 11px;
+}
+.footer {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenu {
+    padding-top: 22px;
+    font-size: 11px;
+}
+.footerMenu li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+}
+.footerMenu a {
+    text-decoration: none;
+    color: #c0c0c0;
+}
