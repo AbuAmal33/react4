@@ -21,22 +21,8 @@ function Main(props) {
     return (
         <div className="app">
             <div className="main">
-                {/*<Number />*/}
-                {/*<Buttons />*/}
-                <div className="number">
-                    {counter}
-                </div>
-                <div className="button">
-                    <div className="button_1" onClick={plus}>
-                        <a href="#">Увеличить</a>
-                    </div>
-                    <div className="button_2" onClick={minus}>
-                        <a href="#">Уменьшить</a>
-                    </div>
-                    <div className="button_3" onClick={reset}>
-                        <a href="#">Сбросить</a>
-                    </div>
-                </div>
+                <Number counter={counter}/>
+                <Buttons plus={plus} minus={minus} reset={reset}/>
             </div>
         </div>
     );
